@@ -1,0 +1,235 @@
+flex-basis/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #ffedde; 
+  text-align: center;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #9c1210;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: #fcd2d7;
+}
+
+h3 {
+  color: #381b03;
+  font-size: 23px;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h2 {
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+p {
+  color: black; 
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 17px;
+}
+
+a {
+  color: #790402;
+}
+
+#takeAction {
+  text-decoration: none;
+  padding: 20px;
+}
+
+#dark {
+  background-color: #faaaae;
+  font-size: 24px;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+.what {
+  background-color: #faaaae;
+  font-size: 24.5px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#cheap {
+  font-size: 18px;
+}
+
+#fastfashion {
+  font-size: 18px;
+}
+
+.TakeActionHeader {
+  text-align: left;
+  font-size: 26px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.Paragraph {
+  text-align: left;
+  font-size: 18px;
+  padding-top: 0px;
+}
+
+#you {
+  text-align: center;
+}
+
+/*Style "Contact Us" Text*/
+#email {
+  font-size: 20px;
+  text-align: left;
+}
+#call {
+  font-size: 20px;
+  text-align: left;
+}
+#learn {
+  font-size: 20px;
+  text-align: left;
+}
+#donate {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #c46a6f;
+  color: white; 
+  margin-top: 20px;
+  padding: 15px;
+}
+
+#fact {
+  background-color: #faaaae;
+  color: white; 
+  font-weight: bold;
+  font-size: 24.5px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; 
+}
+
+#remake {
+  color: antiquewhite;
+}
+
+/* STYLE BUTTONS */
+button {
+  /*center the button*/
+  display: block;
+  margin: 0 auto;
+
+  /*add spacing around and inside the button*/
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  padding: 10px;
+
+  /*color of button*/
+  background-color:  #db7b98;
+  color: white;
+
+  /*button size and font*/
+  font-size: 20px;
+  font-style: "Times New Roman";
+  font-weight: bold;
+
+  /*make it a rounded button*/
+  border-radius: 4px;
+}
+
+/* STYLE NAV BAR */
+
+body {
+   margin: -16px;
+} 
+
+
+ul {
+  list-style-type: none;
+  background-color: #c46a6f;
+  overflow: hidden;
+  padding: 0.75em;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff1eb;
+  font-size: 20px;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #9c1210;
+}
+
+/* STYLE IMAGES */
+/*Make it Responsive CSS Styling*/
+.flex-container {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 0.5%;
+}
+.home-image {
+  max-width: 75%;
+  max-height: 75%;
+  width: 100%;
+}
+/* Change CSS based on screen size*/
+/*Make it Repsonsive to different screen sizes*/
+@media screen and (max-width: 850px) {
+  .flex-container{
+    flex-wrap: wrap;
+  }
+}
+
+img {
+  border: 3px solid #b58153; 
+  max-width: 50%;
+  max-height: 50%;
+
